@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#welcome-section">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="welcome-section">
+        <div class="info">
+            <h1>Hi, I'm Harshal</h1>
+            <p>An aspiring front-end developer</p>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects created by me</h2>
+        <div id="projects-tile-container">
+            <div class="project-tile">
+                <a id="profile-link" href="https://harshal-khairnar.github.io/fcctributepage/" target="_blank">
+                    <h3 class="title">A tribute page</h3>
+                    <img src="./images/tribute-page.png" alt="project-preview-image | Tribute page">
+                </a>
+            </div>
+            <div class="project-tile">
+                <h3 class="title">A product landing page</h3>
+                <img src="./images/product-landing.png" alt="project-preview-image | Product-landing page">
+            </div>
+            <div class="project-tile">
+                <h3 class="title">Survey form</h3>
+                <img src="./images/survey-form.png" alt="project-preview-image | Survey form">
+            </div>
+            <div class="project-tile">
+                <h3 class="title">Technical documentation</h3>
+                <img src="./images/tech-docs.png" alt="project-preview-image | Technical documentation">
+            </div>
+        </div>
+        <!-- <a href="" class="show-more"></a> -->
+    </section>
+    <section id="contact">
+        <h2>Keep in touch &commat;: </h2>
+        <div class="contact-space github">
+            <a href="https://github.com/Harshal-Khairnar" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <!-- <i class="fab fa-github-alt"></i> -->
+        </div>
+        <div class="contact-space twitter">
+            <i class="fab fa-twitter"></i>
+        </div>
+        <div class="contact-space facebook">
+            <i class="fab fa-facebook"></i>
+        </div>
+        <div class="contact-space envelope">
+            <i class="fas fa-envelope"></i>
+        </div>
+    </section>
+    <footer>
+        <p>All projects created with <span id="heart">&hearts;</span> under guidance of <span id="fcc">freecodecamp.org</span>
+            community</p>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
