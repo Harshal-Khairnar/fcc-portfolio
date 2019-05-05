@@ -92,7 +92,6 @@ nav ul li a {
     align-items: center;
 }
 
-
 #contact h2 {
     font-size: 2.2rem;
     font-weight: 400;
@@ -141,7 +140,7 @@ i {
 
 #projects {
     height: 80rem;
-    padding: 5rem 20rem;
+    padding: 0rem 20rem;
 }
 
 #projects h2 {
@@ -149,6 +148,7 @@ i {
     color: #873800;
     text-align: center;
     font-weight: 280;
+    padding-top: 8rem;
 }
 
 #projects h2::after {
@@ -171,11 +171,14 @@ i {
 }
 
 .project-tile {
-    width: auto;
+    max-width: 40rem;
     height: 28rem;
     border: 1.5px solid #c1c1bf;
     border-radius: 5px;
     overflow: hidden;
+
+    align-self: center;
+    justify-self: center;
 }
 
 .project-tile h3 {
